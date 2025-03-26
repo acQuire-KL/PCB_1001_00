@@ -155,7 +155,7 @@
 		(path "/9a77a62b-9b79-4d2b-91a8-82fa44faf585")
 		(sheetname "Root")
 		(sheetfile "PCB_1001_00.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -1.485 -0.735)
 			(end -1.485 0.735)
@@ -1309,7 +1309,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R1"
-			(at 0 -1.43 360)
+			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(uuid "d2a23ae9-d036-4840-ae5a-cf651bdfe6ed")
 			(effects
@@ -1320,7 +1320,7 @@
 			)
 		)
 		(property "Value" "330R"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "b0a0297c-4743-40f4-8b8b-79c32faea48a")
 			(effects
@@ -1475,7 +1475,7 @@
 			(uuid "19586280-cbd0-4a70-a929-e636a2fda738")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "25309da6-0aae-4a91-b6e4-e9695d2f6f82")
 			(effects
