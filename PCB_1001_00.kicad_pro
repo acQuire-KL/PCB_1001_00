@@ -466,7 +466,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "./Gerbers_PCB_1001_00",
+      "plot": "./Gerbers_PCB_1001_01",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "PCB_1001_00.step",
