@@ -27,3 +27,6 @@ fp-info-cache
 
 # Exported BOM files
 *.xml
+
+# Ignore auto-saved files
+#auto_saved_files#
