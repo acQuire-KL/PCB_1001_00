@@ -1,0 +1,16 @@
+### Footprint positions - created on 2025-04-01T23:02:34+0100 ###
+### Printed by KiCad version 8.0.6
+## Unit = mm, Angle = deg.
+## Side : All
+# Ref     Val             Package                                                PosX       PosY       Rot  Side
+BT1       Battery_Cell    BatteryHolder_Keystone_1060_1x2032                 142.7480   -90.4240    0.0000  top
+D1        LED             LED_0603_1608Metric                                132.9790  -108.9660  -90.0000  top
+D2        LED             LED_0603_1608Metric                                143.2560  -108.9660  -90.0000  top
+D3        LED             LED_0603_1608Metric                                153.0970  -108.9660  -90.0000  top
+R1        330R            R_0603_1608Metric                                  131.4550  -108.9460  -90.0000  top
+R2        330R            R_0603_1608Metric                                  141.7320  -108.9460  -90.0000  top
+R3        330R            R_0603_1608Metric                                  151.5475  -108.9460  -90.0000  top
+SW1       SW_MEC_5G_edit  SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS   132.0800  -105.1560    0.0000  top
+SW2       SW_MEC_5G_edit  SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS   143.0020  -105.1560    0.0000  top
+SW3       SW_MEC_5G_edit  SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS   153.1620  -105.1560    0.0000  top
+## End

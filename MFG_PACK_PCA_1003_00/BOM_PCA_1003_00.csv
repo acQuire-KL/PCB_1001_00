@@ -1,0 +1,8 @@
+"Reference","Value","Datasheet","Footprint","Qty","DNP"
+"BT1","Battery_Cell","~","Battery:BatteryHolder_Keystone_1060_1x2032","1",""
+"D1,D3","LED","~","LED_SMD:LED_0603_1608Metric","2",""
+"D2","LED","~","LED_SMD:LED_0603_1608Metric","1","DNP"
+"R1,R3","330R","~","Resistor_SMD:R_0603_1608Metric","2",""
+"R2","330R","~","Resistor_SMD:R_0603_1608Metric","1","DNP"
+"SW1,SW3","SW_MEC_5G_edit","http://www.apem.com/int/index.php?controller=attachment&id_attachment=488","Button_Switch_SMD:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS","2",""
+"SW2","SW_MEC_5G_edit","http://www.apem.com/int/index.php?controller=attachment&id_attachment=488","Button_Switch_SMD:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS","1","DNP"

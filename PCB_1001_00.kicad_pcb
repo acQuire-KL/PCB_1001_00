@@ -164,7 +164,7 @@
 		(path "/b60fe900-3b47-4e28-b866-7bb1d1624ca7")
 		(sheetname "Root")
 		(sheetfile "PCB_1001_00.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -1.485 0.735)
 			(end 0.8 0.735)
@@ -401,7 +401,7 @@
 		(path "/3c941b9a-0b06-4727-a52d-a96e0b071159")
 		(sheetname "Root")
 		(sheetfile "PCB_1001_00.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -3.2 -2)
 			(end -3.2 -0.8)
@@ -717,7 +717,7 @@
 		(path "/3ad28ec7-8b42-4a70-9274-36cd51710076")
 		(sheetname "Root")
 		(sheetfile "PCB_1001_00.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -1.485 0.735)
 			(end 0.8 0.735)
@@ -1189,7 +1189,7 @@
 		(path "/03957f1f-4ea8-41a4-b7ff-b16f01703b3f")
 		(sheetname "Root")
 		(sheetfile "PCB_1001_00.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -3.2 -2)
 			(end -3.2 -0.8)
@@ -2170,7 +2170,7 @@
 		(path "/ab4c25d4-51e5-4a05-9e64-1c13c25ea3d8")
 		(sheetname "Root")
 		(sheetfile "PCB_1001_00.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.237258 0.5225)
 			(end 0.237258 0.5225)
@@ -2383,7 +2383,7 @@
 		(path "/3404b5eb-c4eb-42da-9706-6ed41818ab6e")
 		(sheetname "Root")
 		(sheetfile "PCB_1001_00.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
 			(end 0.237258 0.5225)

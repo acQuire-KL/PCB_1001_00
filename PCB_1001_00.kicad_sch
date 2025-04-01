@@ -4,6 +4,11 @@
 	(generator_version "8.0")
 	(uuid "9c4608c9-b9d4-4f6a-9cb6-835175086c03")
 	(paper "A4")
+	(title_block
+		(title "PCA_1003_00")
+		(date "2025-04-01")
+		(rev "00")
+	)
 	(lib_symbols
 		(symbol "Device:Battery_Cell"
 			(pin_numbers hide)
@@ -853,7 +858,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "03957f1f-4ea8-41a4-b7ff-b16f01703b3f")
 		(property "Reference" "SW3"
@@ -1059,7 +1064,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3404b5eb-c4eb-42da-9706-6ed41818ab6e")
 		(property "Reference" "R3"
@@ -1129,7 +1134,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ad28ec7-8b42-4a70-9274-36cd51710076")
 		(property "Reference" "D3"
@@ -1199,7 +1204,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "3c941b9a-0b06-4727-a52d-a96e0b071159")
 		(property "Reference" "SW2"
@@ -1407,7 +1412,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "ab4c25d4-51e5-4a05-9e64-1c13c25ea3d8")
 		(property "Reference" "R2"
@@ -1477,7 +1482,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "b60fe900-3b47-4e28-b866-7bb1d1624ca7")
 		(property "Reference" "D2"
