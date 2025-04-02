@@ -4,6 +4,11 @@
 	(generator_version "8.0")
 	(uuid "9c4608c9-b9d4-4f6a-9cb6-835175086c03")
 	(paper "A4")
+	(title_block
+		(title "PCA_1003_00")
+		(date "2025-04-01")
+		(rev "00")
+	)
 	(lib_symbols
 		(symbol "Device:Battery_Cell"
 			(pin_numbers hide)
@@ -623,28 +628,28 @@
 		)
 	)
 	(junction
+		(at 128.27 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "17f8e424-e526-4134-8301-644146f0cfda")
+	)
+	(junction
 		(at 151.13 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9d647075-40e2-4217-9cf9-c0ccc45f49e9")
 	)
 	(junction
+		(at 128.27 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a635e70d-7399-433e-ab9d-7899bd59c3de")
+	)
+	(junction
 		(at 166.37 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b4b51fb4-23b7-431b-8cf2-977e17b7cd1f")
-	)
-	(junction
-		(at 166.37 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e29bfb60-11f1-47f2-affc-ee33ed5e0bb9")
-	)
-	(junction
-		(at 151.13 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fd040da3-7ba8-45cc-be31-6a423010bdda")
 	)
 	(wire
 		(pts
@@ -658,6 +663,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 91.44) (xy 166.37 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bf5f740-dd0d-471e-b420-660fe257bf1c")
+	)
+	(wire
+		(pts
 			(xy 166.37 99.06) (xy 166.37 100.33)
 		)
 		(stroke
@@ -668,7 +683,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 88.9) (xy 135.89 88.9)
+			(xy 128.27 91.44) (xy 135.89 91.44)
 		)
 		(stroke
 			(width 0)
@@ -678,23 +693,13 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 88.9) (xy 166.37 88.9)
+			(xy 170.18 74.93) (xy 128.27 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2cf08b93-4bf7-4cbc-af4f-0f3ccbe5a283")
-	)
-	(wire
-		(pts
-			(xy 128.27 88.9) (xy 128.27 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "473d6015-0534-4fda-b632-cf93866cb80d")
+		(uuid "3e14cebf-c105-4a08-bb9d-2f2d90a5ccae")
 	)
 	(wire
 		(pts
@@ -708,7 +713,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 88.9) (xy 151.13 88.9)
+			(xy 146.05 91.44) (xy 151.13 91.44)
 		)
 		(stroke
 			(width 0)
@@ -728,16 +733,6 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 110.49) (xy 151.13 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c724cd6-e989-4c4d-b162-16b479f09cdb")
-	)
-	(wire
-		(pts
 			(xy 151.13 110.49) (xy 128.27 110.49)
 		)
 		(stroke
@@ -748,17 +743,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 88.9) (xy 166.37 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "823a986b-d594-4446-8b48-d8b152131ab4")
-	)
-	(wire
-		(pts
-			(xy 180.34 88.9) (xy 182.88 88.9)
+			(xy 180.34 74.93) (xy 182.88 74.93)
 		)
 		(stroke
 			(width 0)
@@ -768,17 +753,47 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 88.9) (xy 170.18 88.9)
+			(xy 151.13 109.22) (xy 151.13 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8c4c7c68-7fca-4def-91d3-64cc968b1f49")
+		(uuid "899fbc44-dff9-420f-a76f-731632be940b")
 	)
 	(wire
 		(pts
-			(xy 151.13 88.9) (xy 151.13 91.44)
+			(xy 128.27 83.82) (xy 128.27 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98d95866-e7c0-4d92-a787-e3b5c9f6a5ed")
+	)
+	(wire
+		(pts
+			(xy 128.27 74.93) (xy 128.27 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dd797b4-d6cc-4218-88d5-2688f7aee888")
+	)
+	(wire
+		(pts
+			(xy 128.27 91.44) (xy 128.27 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afe89631-961a-44e4-b710-fb3a26cf4225")
+	)
+	(wire
+		(pts
+			(xy 151.13 91.44) (xy 151.13 92.71)
 		)
 		(stroke
 			(width 0)
@@ -788,7 +803,17 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 88.9) (xy 182.88 91.44)
+			(xy 153.67 83.82) (xy 128.27 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b750e8be-481d-482f-a4cc-da98ccf4be1b")
+	)
+	(wire
+		(pts
+			(xy 182.88 74.93) (xy 182.88 91.44)
 		)
 		(stroke
 			(width 0)
@@ -808,7 +833,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 99.06) (xy 151.13 100.33)
+			(xy 151.13 100.33) (xy 151.13 101.6)
 		)
 		(stroke
 			(width 0)
@@ -838,26 +863,25 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 88.9) (xy 153.67 88.9)
+			(xy 166.37 83.82) (xy 163.83 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f47a61c7-a3fd-417f-8da3-8fc96b707051")
+		(uuid "f3586bd5-1897-45cd-a23a-c91998180abb")
 	)
 	(symbol
 		(lib_id "Sym_Library:SW_MEC_5G_edit")
-		(at 175.26 88.9 0)
+		(at 175.26 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
+		(dnp no)
 		(uuid "03957f1f-4ea8-41a4-b7ff-b16f01703b3f")
 		(property "Reference" "SW3"
-			(at 175.26 81.28 0)
+			(at 175.26 70.612 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -865,15 +889,16 @@
 			)
 		)
 		(property "Value" "SW_MEC_5G_edit"
-			(at 175.26 83.82 0)
+			(at 175.26 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS"
-			(at 175.26 83.82 0)
+			(at 175.26 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -882,7 +907,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
-			(at 175.26 83.82 0)
+			(at 175.26 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -891,7 +916,7 @@
 			)
 		)
 		(property "Description" "MEC 5G single pole normally-open tactile switch"
-			(at 175.26 88.9 0)
+			(at 175.26 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -916,16 +941,15 @@
 	)
 	(symbol
 		(lib_id "Sym_Library:SW_MEC_5G_edit")
-		(at 140.97 88.9 0)
+		(at 140.97 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "19f5d4cf-7bfb-467a-a362-a5990d76a859")
 		(property "Reference" "SW1"
-			(at 140.97 81.28 0)
+			(at 140.97 86.868 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -933,15 +957,16 @@
 			)
 		)
 		(property "Value" "SW_MEC_5G_edit"
-			(at 140.97 83.82 0)
+			(at 140.97 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS"
-			(at 140.97 83.82 0)
+			(at 140.97 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -950,7 +975,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
-			(at 140.97 83.82 0)
+			(at 140.97 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -959,7 +984,7 @@
 			)
 		)
 		(property "Description" "MEC 5G single pole normally-open tactile switch"
-			(at 140.97 88.9 0)
+			(at 140.97 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -984,7 +1009,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 151.13 104.14 0)
+		(at 151.13 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -993,7 +1018,7 @@
 		(fields_autoplaced yes)
 		(uuid "1ebe9843-2796-4e2c-a08f-1fd35729d02f")
 		(property "Reference" "R1"
-			(at 153.67 102.8699 0)
+			(at 153.67 104.1399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1002,7 +1027,7 @@
 			)
 		)
 		(property "Value" "330R"
-			(at 153.67 105.4099 0)
+			(at 153.67 106.6799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1011,7 +1036,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 149.352 104.14 90)
+			(at 149.352 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1020,7 +1045,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 151.13 104.14 0)
+			(at 151.13 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1029,7 +1054,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 151.13 104.14 0)
+			(at 151.13 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1059,7 +1084,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3404b5eb-c4eb-42da-9706-6ed41818ab6e")
 		(property "Reference" "R3"
@@ -1129,7 +1154,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ad28ec7-8b42-4a70-9274-36cd51710076")
 		(property "Reference" "D3"
@@ -1194,16 +1219,15 @@
 	)
 	(symbol
 		(lib_id "Sym_Library:SW_MEC_5G_edit")
-		(at 158.75 88.9 0)
+		(at 158.75 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
+		(dnp yes)
 		(uuid "3c941b9a-0b06-4727-a52d-a96e0b071159")
 		(property "Reference" "SW2"
-			(at 158.75 81.28 0)
+			(at 159.004 79.248 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1211,15 +1235,16 @@
 			)
 		)
 		(property "Value" "SW_MEC_5G_edit"
-			(at 158.75 83.82 0)
+			(at 158.75 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS"
-			(at 158.75 83.82 0)
+			(at 158.75 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1228,7 +1253,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
-			(at 158.75 83.82 0)
+			(at 158.75 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1237,7 +1262,7 @@
 			)
 		)
 		(property "Description" "MEC 5G single pole normally-open tactile switch"
-			(at 158.75 88.9 0)
+			(at 158.75 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1332,7 +1357,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 151.13 95.25 90)
+		(at 151.13 96.52 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1341,7 +1366,7 @@
 		(fields_autoplaced yes)
 		(uuid "9a77a62b-9b79-4d2b-91a8-82fa44faf585")
 		(property "Reference" "D1"
-			(at 154.94 95.5674 90)
+			(at 154.94 96.8374 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1350,7 +1375,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 154.94 98.1074 90)
+			(at 154.94 99.3774 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1359,7 +1384,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 151.13 95.25 0)
+			(at 151.13 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1368,7 +1393,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 151.13 95.25 0)
+			(at 151.13 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1377,7 +1402,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 151.13 95.25 0)
+			(at 151.13 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1407,7 +1432,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "ab4c25d4-51e5-4a05-9e64-1c13c25ea3d8")
 		(property "Reference" "R2"
@@ -1477,7 +1502,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "b60fe900-3b47-4e28-b866-7bb1d1624ca7")
 		(property "Reference" "D2"
