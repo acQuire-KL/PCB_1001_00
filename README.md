@@ -3,7 +3,7 @@ HISTORY
 <table>
   <tr>
     <td valign="top">
-      <img src="https://github.com/user-attachments/assets/8a532ba5-d23a-4f8b-95f4-12156342fa2b" alt="Description" width="200">
+      <img src="Support_Docs/PCB_1001_02_3D_image.png" alt="Description" width="200">
     </td>
     <td valign="top">
       <table border="1">
