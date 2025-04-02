@@ -9,8 +9,8 @@
 	(paper "A4")
 	(title_block
 		(title "PCB_1001: Three Button LED Circuit")
-		(date "2025-03-28")
-		(rev "01")
+		(date "2025-04-02")
+		(rev "02")
 	)
 	(layers
 		(0 "F.Cu" signal)
@@ -81,7 +81,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "./Gerbers_PCB_1001_01")
+			(outputdirectory "./Gerbers_PCB_1001_02")
 		)
 	)
 	(net 0 "")

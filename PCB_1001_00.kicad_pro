@@ -466,10 +466,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "./Gerbers_PCB_1001_01",
-      "pos_files": "VAR_PCA_1001_00",
+      "plot": "./Gerbers_PCB_1001_02",
+      "pos_files": "POS_VAR_PCA_1003_00",
       "specctra_dsn": "",
-      "step": "PCB_1001_00.step",
+      "step": "MFG_PACK_PCA_1003_00/3D_PCA_1003_00.step",
       "svg": "",
       "vrml": ""
     },
@@ -477,7 +477,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "BOM_PCA_1001_00.csv",
+    "bom_export_filename": "BOM_PCA_1003_01.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -576,7 +576,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "./SCH_PCA_1001_00",
+    "plot_directory": "./SCH_PCA_1003_01",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
